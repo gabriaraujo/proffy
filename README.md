@@ -55,6 +55,9 @@ Note that the [Web](https://github.com/gabriaraujo/proffy/tree/master/web) folde
 just scan the QR Code generated after executing the commands. The [Server](https://github.com/gabriaraujo/proffy/tree/master/server) folder contains
 the project backend, which must always be running for both applications to work as expected.
 
+- Run `yarn knex:migrate` on the [Server](https://github.com/gabriaraujo/proffy/tree/master/server) to set the [SQLite](https://www.sqlite.org/index.html) database, 
+if it has not already been setted.
+
 ## 🚀 Build With
 - [ReactJS](https://reactjs.org/) - React is an open-source JavaScript library for building user interfaces.
 - [React Native](https://reactnative.dev/) - An open-source mobile application framework. It is used to develop applications for Android, iOS, Web and UWP by enabling 
